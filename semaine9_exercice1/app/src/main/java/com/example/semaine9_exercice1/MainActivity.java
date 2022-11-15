@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 //Pour utiliser Gson, on doit ajouter la ligne suivante dans dependencies de build.gradle(:app)
                 //    implementation 'com.google.code.gson:gson:2.10'
                 Gson gson2=new Gson();
-                String jsonString=gson2.toJson(j1);;
+                String jsonString=gson2.toJson(j1);
                 tv.setText(jsonString);
                 FileInputStream fichierIn=null;
                 try{
